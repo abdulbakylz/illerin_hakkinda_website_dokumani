@@ -1,0 +1,237 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DBA41FB7-896A-49AB-A956-DEE05D21B02B}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication1</RootNamespace>
+    <AssemblyName>WebApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44353</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="03-06-1.aspx" />
+    <Content Include="03-06-2.aspx" />
+    <Content Include="03-06.aspx" />
+    <Content Include="27-05.aspx" />
+    <Content Include="iller.accdb" />
+    <Content Include="il\00.jpg" />
+    <Content Include="il\1.png" />
+    <Content Include="il\10.png" />
+    <Content Include="il\11.png" />
+    <Content Include="il\12.png" />
+    <Content Include="il\13.png" />
+    <Content Include="il\14.png" />
+    <Content Include="il\15.png" />
+    <Content Include="il\16.png" />
+    <Content Include="il\17.png" />
+    <Content Include="il\18.png" />
+    <Content Include="il\19.png" />
+    <Content Include="il\2.png" />
+    <Content Include="il\20.png" />
+    <Content Include="il\21.png" />
+    <Content Include="il\22.png" />
+    <Content Include="il\23.png" />
+    <Content Include="il\24.png" />
+    <Content Include="il\25.png" />
+    <Content Include="il\26.png" />
+    <Content Include="il\27.png" />
+    <Content Include="il\28.png" />
+    <Content Include="il\29.png" />
+    <Content Include="il\3.png" />
+    <Content Include="il\30.png" />
+    <Content Include="il\31.png" />
+    <Content Include="il\32.png" />
+    <Content Include="il\33.png" />
+    <Content Include="il\34.png" />
+    <Content Include="il\35.png" />
+    <Content Include="il\36.png" />
+    <Content Include="il\37.png" />
+    <Content Include="il\38.png" />
+    <Content Include="il\39.png" />
+    <Content Include="il\4.png" />
+    <Content Include="il\40.png" />
+    <Content Include="il\41.png" />
+    <Content Include="il\42.png" />
+    <Content Include="il\43.png" />
+    <Content Include="il\44.png" />
+    <Content Include="il\45.png" />
+    <Content Include="il\46.png" />
+    <Content Include="il\47.png" />
+    <Content Include="il\48.png" />
+    <Content Include="il\49.png" />
+    <Content Include="il\5.png" />
+    <Content Include="il\50.png" />
+    <Content Include="il\51.png" />
+    <Content Include="il\52.png" />
+    <Content Include="il\53.png" />
+    <Content Include="il\54.png" />
+    <Content Include="il\55.png" />
+    <Content Include="il\56.png" />
+    <Content Include="il\57.png" />
+    <Content Include="il\58.png" />
+    <Content Include="il\59.png" />
+    <Content Include="il\6.png" />
+    <Content Include="il\60.png" />
+    <Content Include="il\61.png" />
+    <Content Include="il\62.png" />
+    <Content Include="il\63.png" />
+    <Content Include="il\64.png" />
+    <Content Include="il\65.png" />
+    <Content Include="il\66.png" />
+    <Content Include="il\67.png" />
+    <Content Include="il\68.png" />
+    <Content Include="il\69.png" />
+    <Content Include="il\7.png" />
+    <Content Include="il\70.png" />
+    <Content Include="il\71.png" />
+    <Content Include="il\72.png" />
+    <Content Include="il\73.png" />
+    <Content Include="il\74.png" />
+    <Content Include="il\75.png" />
+    <Content Include="il\76.png" />
+    <Content Include="il\77.png" />
+    <Content Include="il\78.png" />
+    <Content Include="il\79.png" />
+    <Content Include="il\8.png" />
+    <Content Include="il\80.png" />
+    <Content Include="il\81.png" />
+    <Content Include="il\9.png" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="03-06-1.aspx.cs">
+      <DependentUpon>03-06-1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="03-06-1.aspx.designer.cs">
+      <DependentUpon>03-06-1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="03-06-2.aspx.cs">
+      <DependentUpon>03-06-2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="03-06-2.aspx.designer.cs">
+      <DependentUpon>03-06-2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="03-06.aspx.cs">
+      <DependentUpon>03-06.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="03-06.aspx.designer.cs">
+      <DependentUpon>03-06.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="27-05.aspx.cs">
+      <DependentUpon>27-05.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="27-05.aspx.designer.cs">
+      <DependentUpon>27-05.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>56693</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44353/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Bu proje bu bilgisayarda olmayan NuGet paketlerine başvuru yapıyor. Bunları indirmek için NuGet Paket Geri Yükleme'yi kullanın. Daha fazla bilgi için, bkz. http://go.microsoft.com/fwlink/?LinkID=322105. Eksik dosya: {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
